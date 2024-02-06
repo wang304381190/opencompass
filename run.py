@@ -14,6 +14,8 @@ from opencompass.utils import LarkReporter, get_logger
 from opencompass.utils.run import (exec_mm_infer_runner, fill_eval_cfg,
                                    fill_infer_cfg, get_config_from_arg)
 
+#import PycharmRemoteDebug
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Run an evaluation task')

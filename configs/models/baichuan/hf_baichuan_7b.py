@@ -1,12 +1,11 @@
 from opencompass.models import HuggingFaceCausalLM
 
-
 models = [
     dict(
         type=HuggingFaceCausalLM,
         abbr='baichuan-7b-hf',
-        path="baichuan-inc/baichuan-7B",
-        tokenizer_path='baichuan-inc/baichuan-7B',
+        path="/cephfs/baichenglin/work/pretained_models/Baichuan2-7B-Chat",
+        tokenizer_path='/cephfs/baichenglin/work/pretained_models/Baichuan2-7B-Chat',
         tokenizer_kwargs=dict(padding_side='left',
                               truncation_side='left',
                               trust_remote_code=True,
